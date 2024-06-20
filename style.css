@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: MedievalSharp;
+    /* font-family: Poppins; */
+    box-sizing: border-box;
+}
+body{
+    background: #39297b;
+    background: linear-gradient(#332e10, #9ab807);
+    background-size: 100% 100%;
+    color: #fff;
+}
+h1{
+    font-family: MedievalSharp;
+    text-align: center;
+    margin: 100px auto 50px;
+    font-weight: 600;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    background: #434989;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+form > input{
+    border: 0px;
+    flex: 1;
+    height: 100%;
+    outline: 0px;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    padding: 0 30px;
+}
+form > button{
+    padding: 0 40px;
+    height: 100%;
+    background: #ff3929;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: #fff;
+    font-size: 18px;
+}
+#show-more-btn{
+    background-color: #ff3929;
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 9px;
+    margin: 10px auto 100px;
+    cursor: pointer;
+    display: none;
+}
+#search-result{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+#search-result img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+form > button:hover{
+    background: #c0655f;
+    box-shadow: 0px 0px 20px 2px #e7afab,0px 0px 30px 2px #e7afab;
+} 
+#show-more-btn:hover{
+    background: #c0655f;
+    box-shadow: 0px 0px 20px 2px #e7afab,0px 0px 30px 2px #e7afab;
+} 
+footer > .one{
+    display: flex;
+    height: 230px;
+    background-color: #5f6040;
+    margin: 303px auto 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+body > footer > div > div {
+    color:whitesmoke;
+    
+}
